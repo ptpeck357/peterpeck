@@ -1,0 +1,13 @@
+html, body {
+	height: 100%;
+};
+
+#splashpicture {
+  width: 100%;
+};
+
+.banner-description {
+  padding-top: 20px;
+  padding-left: 10%;
+  margin-top: -20px;
+}
