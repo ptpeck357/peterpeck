@@ -1,13 +1,10 @@
-html, body {
-	height: 100%;
-};
-
 #splashpicture {
-  width: 100%;
-};
+  height: 100vh;
+  background-image: "../images/Splash_Picture/Splash.jpg";
+}
 
-.banner-description {
+/* .banner-description {
   padding-top: 20px;
   padding-left: 10%;
   margin-top: -20px;
-}
+} */
