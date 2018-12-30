@@ -47,7 +47,7 @@
       <div id="splashpicture">
         <div class="header-text">
           <h1 class=title>Hello World!</h1>
-          <p class="subtitle">I am a photographer, web developer, and a lifelong learner</p>
+          <p class="subtitle">I am a photographer, web developer, and a lifelong student</p>
         </div>
         <h2 id="icon-text">Learn more what I do<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></h2>
       </div>
@@ -58,12 +58,12 @@
         <div id="profileImage">
           <img src="./images/Peter.jpg" height="200" width="200">
         </div>
-        <aside>
-          <h1 class="text-left">Peter Peck</h1>
+        <div id="bio">
+          <h1>Peter Peck</h1>
           <p>Detail-oriented full-stack developer with broad experiences. As a recent high-school graduate, I have become a proficient developer after attending a Full-Stack Web Development Coding Bootcamp at Northwestern in Evanston (2017-2018).</p>
           <p>I am currently attending University of Idaho to further my knowledge in computer science/software engineering.
           </p>
-        </aside>
+        </div>
       </div>
     </section>
 
@@ -75,39 +75,64 @@
         <hr>
 
         <div class="row">
-          <!-- Project One -->
-          <h4>
-              Battle Blocks
-          </h4>
+
+        <!-- Project One -->
+          <div class="col-md-4">
+            <div class="grid">
+              <img src="./images/Projects/battleblocks.jpg" width="100" alt="Battle Blocks Logo">
+                <h4 class="text-center">Battle Blocks</h4>
+                <p>A team project that developed and wrote an online head to head strategy game in React. I was responsible for registering Mongo users, signing users in, and acting as the team’s designated debugger.</p>
+            </div>
+          </div>
+
           <!-- Project Two -->
-          <h4>
-            Concert Finder
-          </h4>
+          <div class="col-md-4">
+            <div class="grid">
+              <img src="./images/Projects/concertfinder.jpg" width="100" alt="Concert Finder Logo">
+              <h4 class="text-center">Concert Finder</h4>
+              <p>Web application allows users to search for concerts of a specific artist and provide directions to concert results.</p>
+            </div>
+          </div>
 
           <!-- Project Three -->
-          <h4>
-            Clicky
-          </h4>
-        </div>
-
+          <div class="col-md-4">
+            <div class="grid">
+              <img src="./images/Projects/clicky.jpg" width="100" alt="Clicky Logo">
+              <h4 class="text-center">Clicky</h4>
+              <p>A game to test a person's memory skill. Goal of the game is to click on an image once and only once.</p>
+            </div>
+          </div>
 
         <div class="row">
+
           <!-- Project Four -->
-          <h4>
-            MongoDB Web Scraper
-          </h4>
+          <div class="col-md-4">
+            <div class="grid">
+              <img src="./images/Projects/webscraper.jpg" width="100" alt="MongoDB Web Scraper Logo">
+                <h4 class="text-center">MongoDB Web Scraper</h4>
+                <p>A web app that scrapes the latest news from the New York Times and lets users view, save their favorite articles, or add and view notes to that article they saved.</p>
+            </div>
+          </div>
 
           <!-- Project Five -->
-          <h4>
-            Hangman
-          </h4>
+          <div class="col-md-4">
+            <div class="grid">
+              <img src="./images/Projects/hangman.jpg" width="100" alt="Hangman Logo">
+              <div>
+                <h4 class="text-center">Hangman</h4>
+                <p>My first Javascript program. A hangman game where players have to guess the name of the country song with a limited amount of tries. </p>
+              </div>
+            </div>
+          </div>
 
           <!-- Project Six -->
-          <h4>
-            Crystal Game
-          </h4>
-        </div>
-      </div>
+          <div class="col-md-4">
+            <div class="grid">
+              <img src="./images/Projects/crystalCollector.jpg" width="100" alt="Crystal Game Logo">
+                <h4 class="text-center">Crystal Game</h4>
+                <p>My first program using jQuery to build a simple game. Players are given a starting number at the start of the game. Players win the game by matching their total score to the random number. Players lose the game if their total score goes over the random number.</p>
+            </div>
+          </div>
     </section>
 
 
@@ -131,10 +156,10 @@
       </footer>
 
     <!-- Bootstrap -->
-    <script src="../libraries/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./libraries/bootstrap/js/bootstrap.min.js"></script>
 
      <!-- jQuery -->
-     <script src="../libraries/jquery/jquery.min.js"></script>
+     <script src="./libraries/jquery/jquery.min.js"></script>
 	</body>
 
 </html>

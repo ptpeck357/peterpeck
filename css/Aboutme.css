@@ -8,7 +8,7 @@
   width: 30%;
   background: #F5F5F5;
 }
-aside {
+#bio {
   float: left;
   width: 70%;
   background-color: #F5F5F5;
@@ -16,7 +16,7 @@ aside {
 }
 
 @media (max-width: 600px) {
-  #aboutme, #profileImage, aside {
+  #aboutme, #profileImage, #bio {
     width: 100%;
     height: auto;
     padding-top: 0rem;
