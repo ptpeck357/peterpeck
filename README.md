@@ -6,6 +6,7 @@ This is my source code behind my website.
 * CSS
 * Bootstrap 4
 * CrossFade
+* FontAwesome
 
 ## Author
 + [Peter](https://github.com/ptpeck357)
