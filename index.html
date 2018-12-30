@@ -9,11 +9,24 @@
   <!-- Bootstrap 4 CDN -->
   <link rel="stylesheet" href="./libraries/bootstrap/css/bootstrap.min.css">
 
+  <!-- Bootstrap -->
+  <script src="./libraries/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- jQuery -->
+    <script src="./libraries/jquery/jquery.min.js"></script>
+
+  <!-- CrossFade -->
+  <script src="./libraries/imageCrossFade/master/dist/crossfade.jquery.js"></script>
+
   <!-- Custom CSS -->
   <link rel="stylesheet" type="text/css" href="./css/Header.css">
   <link rel="stylesheet" type="text/css" href="./css/Aboutme.css">
   <link rel="stylesheet" type="text/css" href="./css/projects.css">
   <link rel="stylesheet" type="text/css" href="./css/footer.css">
+
+  <!-- Custom files -->
+  <script type="text/javascript" src="./Javascript/main.js"></script>
+
 
 </head>
 
@@ -44,7 +57,7 @@
       </nav> -->
 
     <header class="masthead">
-      <div id="splashpicture">
+      <div id="splashpicture" class="crossfade-small" data-crossfade-start="./images/Splash.jpeg" data-crossfade-end="./images/Splash2.jpg">
         <div class="header-text">
           <h1 class=title>Hello World!</h1>
           <p class="subtitle">I am a photographer, web developer, and a lifelong student</p>
@@ -66,8 +79,6 @@
         </div>
       </div>
     </section>
-
-
 
    <section class="projects-section">
       <div class="container">
@@ -155,11 +166,6 @@
         </div>
       </footer>
 
-    <!-- Bootstrap -->
-    <script src="./libraries/bootstrap/js/bootstrap.min.js"></script>
-
-     <!-- jQuery -->
-     <script src="./libraries/jquery/jquery.min.js"></script>
 	</body>
 
 </html>
