@@ -14,11 +14,11 @@
   background-color: #F5F5F5;
   height: 300px; /* only for demonstration, should be removed */
 }
-
 @media (max-width: 600px) {
   #aboutme, #profileImage, #bio {
     width: 100%;
     height: auto;
     padding-top: 0rem;
+    text-align: center;
   }
 }

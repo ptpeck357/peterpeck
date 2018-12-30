@@ -10,7 +10,6 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-
   background-image:  url("../images/Splash.jpeg");
 }
 .header-text {
