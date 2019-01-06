@@ -1,3 +1,7 @@
 .footer {
-clear: both
+  clear: both;
+  background-color: #808080	;
+}
+footer {
+  padding: 2rem 0;
 }

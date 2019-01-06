@@ -1,0 +1,14 @@
+.contact-section {
+  
+}
+
+.social {
+  margin: 3rem 0;
+  
+}
+/* .social a {
+  margin: 2rem 0;
+} */
+.social a:active {
+  color: #fff;
+} 
