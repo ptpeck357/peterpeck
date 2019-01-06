@@ -8,4 +8,6 @@ $(document).ready(function() {
         backgroundPosition: 'center center'
     });
 
+    ScrollReveal().reveal('.bio');
+
 });
