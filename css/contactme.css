@@ -1,6 +1,11 @@
 .contact-section {
   border-color: #64a19d;
   border-bottom: 0.25rem solid #64a19d;
+  margin-top: 7.5rem;
+}
+.contact-section hr {
+  border-color: #64a19d;
+  border-width: medium;
 }
 .contact-section  a {
   text-decoration: none;
