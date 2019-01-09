@@ -1,6 +1,14 @@
-#resume {
+#resume-header{
   padding: 0;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font: 700;
+  font-size: 40px;
+}
+#resume {
+  padding: 2.5rem 0 5rem 0;
   margin: 0;
   text-align: center;
   width: 100%;
+  background-image: linear-gradient(to bottom right, #DEB887, #FFDEAD, rgb(192, 160, 112));
 }

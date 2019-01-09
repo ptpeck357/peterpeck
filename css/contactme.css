@@ -1,7 +1,8 @@
 .contact-section {
   border-color: #64a19d;
   border-bottom: 0.25rem solid #64a19d;
-  margin-top: 7.5rem;
+  padding-top: 5rem;
+  background-color: #484848
 }
 .contact-section hr {
   border-color: #64a19d;
@@ -22,10 +23,10 @@
 a {
   color: #64a19d;
   margin: 2rem 0;
-  padding: 0 2rem;
+  padding: 0 2.5rem;
 }
 .fab {
-  background: #484848;
+  background: whitesmoke;
   width: 50px;
   height: 50px;
   border-radius: 50%;

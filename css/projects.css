@@ -1,3 +1,11 @@
+#portfolio-header {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font: 700;
+  font-size: 40px;
+}
+.projects-section {
+  margin-bottom: 10rem;
+}
 .grid {
   padding: 10px;
 }
