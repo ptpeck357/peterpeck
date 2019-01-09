@@ -4,10 +4,10 @@
   font-size: 40px;
   color: whitesmoke
 }
-.aboutMe {
+#aboutMe {
   padding-top: 5rem;
-  position: relative;
   background:  #46474a;
+  height: 100%;
 }
 #profileImage {
   float: left;
@@ -16,7 +16,6 @@
 #bio {
   float: left;
   width: 70%;
-  /* background-color: #F5F5F5; */
   height: 300px; /* only for demonstration, should be removed */
 }
 @media (max-width: 600px) {
