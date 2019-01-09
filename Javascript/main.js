@@ -10,8 +10,6 @@ $(document).ready(function() {
 
     ScrollReveal().reveal('.reveal',
     {
-        duration: 1000,
-        delay: 100,
-        reset: true
+        duration: 1000
     });
 });
