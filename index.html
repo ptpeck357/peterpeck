@@ -29,7 +29,7 @@
     <header class="masthead">
       <div id="splashpicture" class="crossfade-small" data-crossfade-start="./images/Splash.jpeg" data-crossfade-end="./images/Splash2.jpg">
         <div class="header-text">
-          <h1 class=title>Hello World!</h1>
+          <h1 class="title">Hello World!</h1>
           <p class="subtitle">I am a photographer, web developer, and a lifelong student</p>
         </div>
       </div>
@@ -37,13 +37,13 @@
 
     <div class="aboutMe">
       <div class="container">
-        <div id="profileImage">
+        <div id="profileImage" class="reveal">
           <img src="./images/Peter.jpg" height="200" width="200" alt="Profile Picture">
         </div>
         <div id="bio">
-          <p id="headerTitle">Peter Peck</p>
-          <p>Detail-oriented full-stack developer with broad experiences. As a recent high-school graduate, I have become a proficient developer after attending a Full-Stack Web Development Coding Bootcamp at Northwestern in Evanston (2017-2018).</p>
-          <p>I am currently attending University of Idaho to further my knowledge in computer science/software engineering.
+          <p id="headerTitle" class="reveal">Peter Peck</p>
+          <p class="reveal">Detail-oriented full-stack developer with broad experiences. As a recent high-school graduate, I have become a proficient developer after attending a Full-Stack Web Development Coding Bootcamp at Northwestern in Evanston (2017-2018).</p>
+          <p class="reveal">I am currently attending University of Idaho to further my knowledge in computer science/software engineering.
           </p>
         </div>
       </div>
@@ -51,13 +51,13 @@
 
     <div id="projects-section">
       <div class="container">
-        <p id="portfolio-header">Projects</p>
+        <p id="portfolio-header" class="reveal">Projects</p>
         <hr class="my-3">
 
         <div class="row">
         <!-- Project One -->
           <div class="col-md-4">
-            <div class="grid">
+            <div class="grid reveal">
               <img src="./images/Projects/battleblocks.jpg" width="100" alt="Battle Blocks Logo">
                 <h4 class="text-center">Battle Blocks</h4>
                 <p>A team project that developed and wrote an online head to head strategy game in React. I was responsible for registering Mongo users, signing users in, and acting as the team’s designated debugger.</p>
@@ -66,7 +66,7 @@
 
           <!-- Project Two -->
           <div class="col-md-4">
-            <div class="grid">
+            <div class="grid reveal">
               <img src="./images/Projects/concertfinder.jpg" width="100" alt="Concert Finder Logo">
               <h4 class="text-center">Concert Finder</h4>
               <p>Web application allows users to search for concerts of a specific artist and provide directions to concert results.</p>
@@ -75,7 +75,7 @@
 
           <!-- Project Three -->
           <div class="col-md-4">
-            <div class="grid">
+            <div class="grid reveal">
               <img src="./images/Projects/clicky.jpg" width="100" alt="Clicky Logo">
               <h4 class="text-center">Clicky</h4>
               <p>A game to test a person's memory skill. Goal of the game is to click on an image once and only once.</p>
@@ -87,7 +87,7 @@
         <div class="row">
           <!-- Project Four -->
           <div class="col-md-4">
-            <div class="grid">
+            <div class="grid reveal">
               <img src="./images/Projects/webscraper.jpg" width="100" alt="MongoDB Web Scraper Logo">
                 <h4 class="text-center">MongoDB Web Scraper</h4>
                 <p>A web app that scrapes the latest news from the New York Times and lets users view, save their favorite articles, or add and view notes to that article they saved.</p>
@@ -96,7 +96,7 @@
 
           <!-- Project Five -->
           <div class="col-md-4">
-            <div class="grid">
+            <div class="grid reveal">
               <img src="./images/Projects/hangman.jpg" width="100" alt="Hangman Logo">
               <div>
                 <h4 class="text-center">Hangman</h4>
@@ -107,7 +107,7 @@
 
           <!-- Project Six -->
           <div class="col-md-4">
-            <div class="grid">
+            <div class="grid reveal">
               <img src="./images/Projects/crystalCollector.jpg" width="100" alt="Crystal Game Logo">
                 <h4 class="text-center">Crystal Game</h4>
                 <p>My first program using jQuery to build a simple game. Players win the game by matching their total score to the random number. Players lose the game if their total score goes over the random number.</p>
@@ -118,8 +118,8 @@
     </div>
 
     <div id="resume">
-      <h6 id="resume-header">My Resume</h6>
-        <div class="col-sm-8 offset-sm-2">
+      <p id="resume-header" class="reveal">My Resume</p>
+        <div class="col-sm-8 offset-sm-2 reveal">
         <iframe src="https://docs.google.com/document/d/e/2PACX-1vRKAhkWqj6kgzRJhzOdyPSdRki4vSNCgys7ZyfPSqnSNNMbY-l-QNBf-HFKx-R-eZVkcayUDIGEWgb0/pub?embedded=true" width="100%" height="1080" style=" border: none;"></iframe>
       </div>
     </div>
@@ -130,7 +130,7 @@
 
         <div class="row">
           <div class="col-md-4 mb-md-0">
-            <div class="card py-4 h-100">
+            <div class="card py-4 h-100 reveal">
               <div class="card-body text-center">
                 <i class="fas fa-map-marked-alt text-primary mb-2"></i>
                 <h4 class="text-uppercase m-0">Address</h4>
@@ -141,7 +141,7 @@
           </div>
 
           <div class="col-md-4 mb-md-0">
-            <div class="card py-4 h-100">
+            <div class="card py-4 h-100 reveal">
               <div class="card-body text-center">
                 <i class="fas fa-envelope text-primary mb-2"></i>
                 <h4 class="text-uppercase m-0">Email</h4>
@@ -154,7 +154,7 @@
           </div>
 
           <div class="col-md-4 mb-md-0">
-            <div class="card py-4 h-100">
+            <div class="card py-4 h-100 reveal">
               <div class="card-body text-center">
                 <i class="fas fa-mobile-alt text-primary mb-2"></i>
                 <h4 class="text-uppercase m-0">Phone</h4>
@@ -165,7 +165,7 @@
           </div>
         </div> <!--end of row-->
 
-        <div class="social d-flex justify-content-center">
+        <div class="social d-flex justify-content-center reveal">
           <a href="https://www.linkedin.com/in/petertpeck/" class="mx-2" target="_blank" >
             <i class="fab fa-linkedin"></i>
           </a>

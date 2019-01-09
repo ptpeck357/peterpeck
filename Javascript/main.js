@@ -8,6 +8,10 @@ $(document).ready(function() {
         backgroundPosition: 'center center'
     });
 
-    ScrollReveal().reveal('.bio');
-
+    ScrollReveal().reveal('.reveal',
+    {
+        duration: 1000,
+        delay: 100,
+        reset: true
+    });
 });
