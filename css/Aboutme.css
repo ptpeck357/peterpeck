@@ -2,21 +2,21 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font: 700;
   font-size: 40px;
-  color: whitesmoke
+  color: whitesmoke;
 }
 #aboutMe {
   padding-top: 5rem;
-  background:  #46474a;
-  height: 100%;
+  background: #46474a;
+  height: 100vh;
 }
 #profileImage {
   float: left;
   width: 30%;
 }
 #bio {
+  padding-top: 10rem;
   float: left;
-  width: 70%;
-  height: 300px; /* only for demonstration, should be removed */
+  width: 100%;
 }
 @media (max-width: 600px) {
   #aboutme, #profileImage, #bio {
