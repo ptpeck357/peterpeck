@@ -18,12 +18,12 @@
   margin: 3rem 0;
 }
 .social a:hover {
-  color: #a4d3d0;
+  color: #008178;
 }
 a {
   color: #64a19d;
   margin: 2rem 0;
-  padding: 0 2.5rem;
+  padding: 0 1rem;
 }
 .fab {
   background: whitesmoke;

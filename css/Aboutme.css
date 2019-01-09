@@ -1,12 +1,17 @@
-#about {
-  padding-top: 10rem;
+#headerTitle {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font: 700;
+  font-size: 40px;
+  color: whitesmoke
+}
+.aboutMe {
+  padding-top: 5rem;
   position: relative;
-  /* background: #F5F5F5; */
+  background:  #46474a;
 }
 #profileImage {
   float: left;
   width: 30%;
-  /* background: #F5F5F5; */
 }
 #bio {
   float: left;
