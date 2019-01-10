@@ -38,24 +38,22 @@
       </div>
     </header>
 
-    <div id="aboutMe">
-      <div class="container">
-        <div id="bio">
+      <div id="aboutMe">
+        <div id="card">
           <div id="profileImage">
-            <img src="./images/Peter.jpg" height="200" width="200" alt="Profile Picture">
+            <img src="./images/Peter.jpg" class="rounded float-left img-fluid" height="200" width="300" alt="Profile Picture">
           </div>
           <p id="headerTitle">Peter Peck</p>
           <p>Detail-oriented full-stack developer with broad experiences. As a recent high-school graduate, I have become a proficient developer after attending a Full-Stack Web Development Coding Bootcamp at Northwestern in Evanston (2017-2018).</p>
           <p>I am currently attending University of Idaho to further my knowledge in computer science/software engineering.
           </p>
+          <p>"Don’t worry if it doesn’t work right. If everything did, you’d be out of a job." - (Mosher’s Law of Software Engineering)</p>
         </div>
       </div> <!--end of container-->
-    </div>
 
     <!-- Project section -->
-    <spam id="projects-section">
-      <p id="portfolio-header">Projects</p>
-      <hr>
+    <div id="projects-section">
+      <p id="portfolio-header" class="reveal">Personal Projects</p>
       <ul class="thumbs">
         <li>
           <a href="#thumb1" class="thumbnail reveal" style="background-image: url('./images/thumbnails/mern.jpg')">
@@ -145,21 +143,97 @@
           <div class="media">
             <img src="./images/Projects/crystalCollector.jpg" alt="jQuery Picture"/>
           </div>
-          <h1>Cyrstal Collector</h1>
+          <h1>Crystal Collector</h1>
           <p>My first program using jQuery to build a simple game. Players win the game by matching their total score to the random number. Players lose the game if their total score goes over the random number.</p>
           <a href="https://ptpeck357.github.io/Crystal-Game/" class="btn btn-primary" target="_blank">Demo</a>
           <a href="https://github.com/ptpeck357/Crystal-Game" class="btn btn-primary" target="_blank">View Source Code</a>
         </div>
       </div>
 
-    </spam>
-
-    <div id="resume">
-      <p id="resume-header" class="reveal">My Resume</p>
-        <div class="col-sm-8 offset-sm-2 reveal">
-        <iframe src="https://docs.google.com/document/d/e/2PACX-1vRKAhkWqj6kgzRJhzOdyPSdRki4vSNCgys7ZyfPSqnSNNMbY-l-QNBf-HFKx-R-eZVkcayUDIGEWgb0/pub?embedded=true" width="100%" height="1080" style=" border: none;"></iframe>
-      </div>
     </div>
+
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+      <div class="my-auto">
+
+        <h2 class="mb-5">Education</h2>
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0">University of Idaho</h3>
+            <div class="subheading mb-3">Bachelor of Science</div>
+            <p>Computer Science</p>
+            <!-- <p>GPA: 3.23</p> -->
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">August 2018 - Present</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row">
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0">Northwestern University (Evanston, IL) </h3>
+            <div class="subheading mb-3">Certificate in Full-Stack (MERN) Web Development –Northwestern Coding Bootcamp</div>
+            <!-- <p>GPA: 3.80</p> -->
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">August 2017 - March 2008</span>
+          </div>
+        </div>
+      </div>
+    </section>
+      <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+      <div class="my-auto">
+        <h2 class="mb-5">Experience</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0">Senior Web Developer</h3>
+            <div class="subheading mb-3">Intelitec Solutions</div>
+            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">March 2013 - Present</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0">Web Developer</h3>
+            <div class="subheading mb-3">Intelitec Solutions</div>
+            <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">December 2011 - March 2013</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0">Junior Web Designer</h3>
+            <div class="subheading mb-3">Shout! Media Productions</div>
+            <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">July 2010 - December 2011</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row">
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0">Web Design Intern</h3>
+            <div class="subheading mb-3">Shout! Media Productions</div>
+            <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">September 2008 - June 2010</span>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
 
     <!-- Contact Section -->
     <div class="contact-section bg-black">
@@ -222,9 +296,9 @@
     </div>
 
      <!-- Footer -->
-    <footer class="footer text-center text-white">
+    <footer class="footer text-center text-white reveal">
       <div class="container">
-        <p>Copyright &copy; Peter Peck 2018</p>
+        <p>Copyright &copy; Peter Peck 2019</p>
       </div>
     </footer>
 

@@ -5,16 +5,13 @@
   color: whitesmoke;
 }
 #aboutMe {
-  padding-top: 5rem;
+  padding: 5rem 0;
   background: #46474a;
-  height: 100%;
   border-bottom: 0.25rem solid #64a19d;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
 }
 #profileImage {
   float: left;
-  width: 30%;
+  /* width: 200px; */
 }
 #bio {
   padding-top: 10rem;
