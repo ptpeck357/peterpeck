@@ -35,3 +35,11 @@ section.resume-section p {
 .dev-icons > li:last-child {
   vertical-align: middle !important;
 }
+/* #resumeLink {
+  text-decoration: none;
+
+} */
+#resumeLink:hover {
+  text-decoration: none;
+  color: #BD5D38;
+}
