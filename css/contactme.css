@@ -19,6 +19,8 @@
 }
 .social a:hover {
   color: #008178;
+  transition: all .2s ease-in-out;
+	transform: scale(1.1);
 }
 .social > a {
   color: #64a19d;
