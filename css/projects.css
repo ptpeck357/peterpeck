@@ -39,3 +39,14 @@ a.button {
 .thumbs {
   display: block;
 }
+.list-text {
+  font-family: Muli, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #868e96;
+}
+.dev-icons {
+  font-size: 3rem;
+  color: #868e96;
+}
+.dev-icons .list-inline-item i:hover {
+  color: #BD5D38;
+}
