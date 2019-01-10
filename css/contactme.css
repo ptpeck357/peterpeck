@@ -20,7 +20,7 @@
 .social a:hover {
   color: #008178;
 }
-a {
+.social > a {
   color: #64a19d;
   margin: 2rem 0;
   padding: 0 1rem;
@@ -38,31 +38,3 @@ a {
   size: 200px;
 }
 
-/* Media Queries */
-/* ------------- */
-/* Extra small devices (portrait phones, less than 576px) */
-@media (min-width: 575px) {
-    
-}
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767px) { 
-  .contactBox {
-    margin-bottom: 5rem;
-    padding-bottom: 5rem;
-  }
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991px) {
-
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199px) {
-
-}
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-
-}

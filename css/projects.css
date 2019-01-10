@@ -3,9 +3,12 @@
   font: 700;
   font-size: 40px;
   text-align: center;
+  margin: 0;
+  padding: 2.5rem 0;
 }
 #projects-section {
-  margin: 2rem 0;
+  height: 200%;
+  background: #808080;
 }
 h1 {
   margin-bottom: 0px;
