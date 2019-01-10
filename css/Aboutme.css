@@ -1,29 +1,18 @@
 #headerTitle {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Muli, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font: 700;
   font-size: 40px;
-  color: whitesmoke;
 }
 #aboutMe {
-  padding: 5rem 0;
   background: #46474a;
-  border-bottom: 0.25rem solid #64a19d;
 }
-#profileImage {
-  float: left;
-  /* width: 200px; */
+.hr-short {
+  border-width: 3px;
+  border-color: #e62522;
 }
 #bio {
   padding-top: 10rem;
   float: left;
   width: 100%;
-}
-@media (max-width: 600px) {
-  #aboutme, #profileImage, #bio {
-    width: 100%;
-    height: auto;
-    padding-top: 0rem;
-    text-align: center;
-  }
 }
 

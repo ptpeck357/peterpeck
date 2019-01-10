@@ -38,22 +38,30 @@
       </div>
     </header>
 
-      <div id="aboutMe">
-        <div id="card">
-          <div id="profileImage">
-            <img src="./images/Peter.jpg" class="rounded float-left img-fluid" height="200" width="300" alt="Profile Picture">
+      <!-- About me section -->
+      <section class="bg-black reveal" id="aboutMe">
+        <div class="container-fluid d-flex h-100">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
+              <img src="./images/Peter.jpg" alt="profile picture" class="img-fluid reveal">
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 about-me-content text-white text-center reveal">
+              <h1 id="headerTitle" class="mt-3 reveal">Peter Peck</h1>
+              <hr class="hr-short">
+              <p>Detail-oriented full-stack developer with broad experiences. As a recent high-school graduate, I have become a proficient developer after attending a Full-Stack Web Development Coding Bootcamp at Northwestern in Evanston (2017-2018).</p>
+              <p>I am currently attending University of Idaho to further my knowledge in computer science/software engineering.
+              </p>
+              <p>"Don’t worry if it doesn’t work right. If everything did, you’d be out of a job."</p>
+              <hr class="hr-short">
+            </div>
           </div>
-          <p id="headerTitle">Peter Peck</p>
-          <p>Detail-oriented full-stack developer with broad experiences. As a recent high-school graduate, I have become a proficient developer after attending a Full-Stack Web Development Coding Bootcamp at Northwestern in Evanston (2017-2018).</p>
-          <p>I am currently attending University of Idaho to further my knowledge in computer science/software engineering.
-          </p>
-          <p>"Don’t worry if it doesn’t work right. If everything did, you’d be out of a job." - (Mosher’s Law of Software Engineering)</p>
         </div>
-      </div> <!--end of container-->
+      </section><!-- About me Ends -->
 
     <!-- Project section -->
     <div id="projects-section">
       <p id="portfolio-header" class="reveal">Personal Projects</p>
+      <hr>
       <ul class="thumbs">
         <li>
           <a href="#thumb1" class="thumbnail reveal" style="background-image: url('./images/thumbnails/mern.jpg')">
@@ -152,7 +160,7 @@
 
     </div>
 
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column reveal" id="education">
       <div class="my-auto">
 
         <h2 class="mb-5">Education</h2>
@@ -201,8 +209,7 @@
     </section> -->
 
     <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column reveal" id="skills">
       <div class="my-auto">
         <h2 class="mb-5">Skills</h2>
 
@@ -241,7 +248,7 @@
             Agile Development &amp; Scrum</li>
           <li class="list-text">
             <i class="fa-li fa fa-check"></i>
-            Team Collaboration</li>
+            Cross Functional Teams</li>
           <li>
           <li class="list-text">
             <i class="fa-li fa fa-check"></i>
