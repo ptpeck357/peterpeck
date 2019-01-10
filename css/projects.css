@@ -5,10 +5,31 @@
   text-align: center;
 }
 #projects-section {
-  margin-bottom: 10rem;
-  /* background:  #46474a; */
+  margin: 2rem 0;
 }
-.grid {
-  padding: 10px;
+h1 {
+  margin-bottom: 0px;
+  margin-top: 30px;
 }
-
+h3 {
+  margin-top: 10px;
+  font-weight: normal;
+  color: #a6a6a6;
+}
+a.button {
+  text-decoration: none;
+}
+.button {
+  padding: 14px 22px;
+  background-color: #cecece;
+  color: #333333;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.button:hover {
+  background-color: #e1e1e1;
+}
+.thumbs {
+  display: block;
+}

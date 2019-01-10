@@ -16,9 +16,9 @@ $(document).ready(function() {
     });
 
   //jQuery Portfolio
-  $(".grid").portfolio({
-    cols: 3, // Number of columns you want your thumbnails to take. Default is 3
-    transition: 'slideDown' // What jQuery transition effect you want. Default is slideDown
-  });
+  $('.thumbs').portfolio({
+    cols: 3,
+    transition: 'slideDown'
+});
 
 });
