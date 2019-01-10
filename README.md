@@ -5,6 +5,9 @@ This is my source code behind my website.
 * HTML
 * CSS
 * Bootstrap 4
+* jQuery
+* scrollReveal
+* jQueryPortfolio
 * CrossFade
 * FontAwesome
 
