@@ -41,16 +41,16 @@ a {
 /* Media Queries */
 /* ------------- */
 /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575px) {
-    .card-section {
-      padding bottom: 10rem;
-      color: white;
-    }
+@media (min-width: 575px) {
+    
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767px) { 
-
+  .contactBox {
+    margin-bottom: 5rem;
+    padding-bottom: 5rem;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
