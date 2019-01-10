@@ -4,11 +4,12 @@
   font-size: 40px;
   text-align: center;
   margin: 0;
-  padding: 2.5rem 0;
+  padding: 2rem 0;
 }
-#projects-section {
-  height: 100%;
-  background: #0c0707;
+#projects-section > hr {
+  border-color: #64a19d;
+  border-width: thin;
+  padding-bottom: 2.5rem;
 }
 h1 {
   margin-bottom: 0px;
