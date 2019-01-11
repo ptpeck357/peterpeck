@@ -1,5 +1,5 @@
 ul.thumbs {
-  padding: 0;
+  padding: 5px 0;
   margin: 0;
   overflow: hidden;
 }
@@ -12,7 +12,10 @@ ul.thumbs li {
   float: left;
   position: relative;
 }
-
+ul.thumbs li:hover{
+  transition: all 1 ease-in-out;
+	transform: scale(1.1);
+}
 ul.thumbs li a.thumbnail {
   background-repeat: no-repeat;
   background-size: cover;
