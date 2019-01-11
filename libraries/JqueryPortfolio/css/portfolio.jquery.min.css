@@ -13,8 +13,7 @@ ul.thumbs li {
   position: relative;
 }
 ul.thumbs li:hover{
-  transition: all 1 ease-in-out;
-	transform: scale(1.1);
+  opacity: 0.5;
 }
 ul.thumbs li a.thumbnail {
   background-repeat: no-repeat;
