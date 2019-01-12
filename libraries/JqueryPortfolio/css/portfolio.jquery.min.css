@@ -11,9 +11,7 @@ ul.thumbs li {
   float: left;
   position: relative;
 }
-ul.thumbs li:hover{
-  opacity: 0.5;
-}
+
 ul.thumbs li a.thumbnail {
   background-repeat: no-repeat;
   background-size: cover;
