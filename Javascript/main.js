@@ -9,7 +9,7 @@ $(document).ready(function() {
     backgroundPosition: 'center center'
   });
 
-  //SCroll Reveal
+  //Scroll Reveal
   ScrollReveal().reveal('.reveal',
     {
       duration: 1000
