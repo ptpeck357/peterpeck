@@ -38,6 +38,8 @@ a.button {
 .thumbs {
   display: block;
 }
+
+/* Hover css */
 .hvr-curl-top-left {
   display: inline-block;
   vertical-align: middle;

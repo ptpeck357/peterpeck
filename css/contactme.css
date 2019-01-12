@@ -35,6 +35,8 @@
   line-height: 50px !important;
   size: 200px;
 }
+
+/* Hover css */
 @-webkit-keyframes hvr-icon-pulse-grow {
   to {
     -webkit-transform: scale(1.3);

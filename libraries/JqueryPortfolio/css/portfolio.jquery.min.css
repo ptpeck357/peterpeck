@@ -11,7 +11,6 @@ ul.thumbs li {
   float: left;
   position: relative;
 }
-
 ul.thumbs li a.thumbnail {
   background-repeat: no-repeat;
   background-size: cover;
@@ -71,17 +70,17 @@ ul.thumbs li a.thumbnail .active-arrow {
   margin: 0 auto;
 }
 
-@media (max-width: 970px)  {
-ul.thumbs li {
-  width: 50% !important;
-}
-.media iframe{
-  width: 100%;
-}
-}
 @media (max-width: 1200px) and (min-width: 970px) {
   ul.thumbs li {
-      width: 33.3333% !important;
+    width: 33.3333% !important;
+  }
+}
+@media (max-width: 970px)  {
+  ul.thumbs li {
+    width: 50% !important;
+  }
+  .media iframe{
+    width: 100%;
   }
 }
 ul.thumbs li a.thumbnail:hover .description {
@@ -105,7 +104,7 @@ ul.thumbs li.content .close {
   position: absolute;
   top: 0;
   right: 0;
-  color: #c2c2c2;
+  color: black;
   cursor: pointer;
   font-weight: normal;
   font-family: -webkit-pictograph;
@@ -126,30 +125,47 @@ ul.thumbs li.content .media img {
   max-width: 100%;
 }
 @media (max-width: 1080px) {
-.close {
-  right: 0 !important;
-  top: 7px !important;
-}
-ul.thumbs .media {
-  margin-right: 0;
-  margin-bottom: 20px;
-}
-}
-@media (max-width: 590px) {
-ul.thumbs li {
-  width: 100% !important;
-}
-ul.thumbs .media {
-  display: none !important;
-}
+  .close {
+    right: 0 !important;
+    top: 7px !important;
+  }
+  ul.thumbs .media {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
 }
 @media (max-width: 700px) and (min-width: 590px) {
   ul.thumbs .media {
     width: 100% !important;
     display: block !important;
-    margin-top: 60px;
+    margin-top: 60px !important;
+    padding: 10px 10px !important;
+    display: none !important;
+  }
+  ul.thumbs li.content {
+    height: 250px;
+  }
+  .project-content {
+    padding: 0 1.5rem;
+    height: 200px;
   }
 }
 .portfolio-content {
   display: none;
+}
+@media (max-width: 590px) {
+  ul.thumbs li {
+    width: 100% !important;
+  }
+  ul.thumbs .media {
+    display: none !important;
+  }
+  ul.thumbs li.content {
+    height: 250px;
+  }
+  .project-content {
+    padding: 0 2rem;
+  }
+}
+@media (min-width: 400px) {
 }

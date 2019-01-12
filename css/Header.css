@@ -49,10 +49,10 @@ body, html {
   color: white;
 }
 
-/* @media (max-width: 600px) {
+@media (min-width: 400px) {
   .header-text {
     width: 100%;
     height: auto;
   }
-} */
+}
 
