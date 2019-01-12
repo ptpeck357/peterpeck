@@ -145,9 +145,9 @@ ul.thumbs li.content .media img {
   ul.thumbs li.content {
     height: 250px;
   }
-  .project-content {
+  .textProject {
     padding: 0 1.5rem;
-    height: 200px;
+    height: 250px;
   }
 }
 .portfolio-content {
@@ -163,8 +163,8 @@ ul.thumbs li.content .media img {
   ul.thumbs li.content {
     height: 250px;
   }
-  .project-content {
-    padding: 0 2rem;
+  .textProject {
+    padding: 0 1.5rem;
   }
 }
 @media (min-width: 400px) {
