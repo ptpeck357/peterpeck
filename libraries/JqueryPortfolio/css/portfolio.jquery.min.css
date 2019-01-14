@@ -5,7 +5,7 @@ ul.thumbs {
 }
 ul.thumbs li {
   display: inline-block;
-  height: 300px;
+  height: 200px;
   overflow: hidden;
   padding: 0;
   float: left;
