@@ -149,6 +149,9 @@ ul.thumbs li.content .media img {
     padding: 0 1.5rem;
     height: 250px;
   }
+  #headerTitle {
+    text-align: center !important;
+  }
 }
 .portfolio-content {
   display: none;
@@ -166,6 +169,12 @@ ul.thumbs li.content .media img {
   .textProject {
     padding: 0 1.5rem;
   }
+  #headerTitle {
+    text-align: center !important;
+  }
 }
 @media (min-width: 400px) {
+  #headerTitle {
+    text-align: center !important;
+  }
 }
