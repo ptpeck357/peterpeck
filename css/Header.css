@@ -51,11 +51,10 @@ body, html {
     width: 100%;
     height: auto;
   }
-  #bio {
+  .bio {
     text-align: center;
   }
-  .arrow,
-  .arrow:before {
+  .arrow {
     position: absolute;
     left: 50%;
     bottom: 10% !important;
@@ -66,8 +65,10 @@ body, html {
     width: 100%;
     height: auto;
   }
-  .arrow,
-  .arrow:before {
+  .bio {
+    text-align: center;
+  }
+  .arrow {
     position: absolute;
     left: 50%;
     bottom: 10% !important;
