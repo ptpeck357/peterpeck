@@ -1,4 +1,4 @@
-This is my source code behind my website.
+This is my source code behind my website. It is still a work in progress.
 + [Website](https://ptpeck357.github.io/peterpeck/)
 
 ## Technologies Used:
