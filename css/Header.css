@@ -39,9 +39,12 @@ body, html {
     width: 100%;
     height: auto;
   }
-  /* #splashpicture {
-    height: 90vh;
-  } */
+  .arrow,
+  .arrow:before {
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+  }
 }
 @media (max-width: 590px) {
   .header-text {
@@ -51,8 +54,11 @@ body, html {
   #bio {
     text-align: center;
   }
-  #splashpicture {
-    height: 90vh;
+  .arrow,
+  .arrow:before {
+    position: absolute;
+    left: 50%;
+    bottom: 10% !important;
   }
 }
 @media (max-width: 400px) {
@@ -60,8 +66,11 @@ body, html {
     width: 100%;
     height: auto;
   }
-  #splashpicture {
-    height: 90vh;
+  .arrow,
+  .arrow:before {
+    position: absolute;
+    left: 50%;
+    bottom: 10% !important;
   }
 }
 .arrow,
