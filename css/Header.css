@@ -39,17 +39,29 @@ body, html {
     width: 100%;
     height: auto;
   }
+  /* #splashpicture {
+    height: 90vh;
+  } */
 }
 @media (max-width: 590px) {
   .header-text {
     width: 100%;
     height: auto;
   }
+  #bio {
+    text-align: center;
+  }
+  #splashpicture {
+    height: 90vh;
+  }
 }
-@media (min-width: 400px) {
+@media (max-width: 400px) {
   .header-text {
     width: 100%;
     height: auto;
+  }
+  #splashpicture {
+    height: 90vh;
   }
 }
 .arrow,
