@@ -50,7 +50,7 @@ body, html {
   .arrow:before {
     position: absolute;
     left: 50%;
-    bottom: 6%;
+    bottom: 10%;
   }
   .arrow {
     width: 40px;
@@ -67,7 +67,18 @@ body, html {
     font-size: 4rem;
   }
   .subtitle {
-    font-size: 1rem;
+    font-size: 0.5rem;
+  }
+  .arrow,
+  .arrow:before {
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+  }
+  .arrow {
+    width: 40px;
+    height: 40px;
+    bottom: 10%;
   }
 }
 /* @media (max-width: 700px) and (min-width: 590px) {
