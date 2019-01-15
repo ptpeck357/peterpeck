@@ -11,7 +11,8 @@ body, html {
   background-attachment: scroll;
   background-size: cover;
   position: relative;
-  background-image:  url("../images/Splash.jpeg");
+  z-index: -5;
+  background-image:  url("https://qznyjq.sn.files.1drv.com/y4mtOc5w1z4Ba2SDxoPDwqItKuKeqOusrLakttgOIwE6zHECj-iIFJUHTtI1C4PB0-Uu0tPe-URkOhTwZzf9JAqnE9w8AiWif1Ctm6f9XIyy0-NEZbf22MIn9T9Ezv0iXqy_dpBbbSVhWQaJgb-iKnOpXUdnqxRIZack3cAT2KhUR69QSSGcEbmmKPR5vDDHLp2fUsFLs1p5jE8XkQ9vRZzGQ?width=1024&height=683&cropmode=none");
 }
 .header-text {
   z-index: 10;
