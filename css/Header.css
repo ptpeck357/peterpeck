@@ -34,6 +34,55 @@ body, html {
   font-style: normal;
   color: rgb(255, 255, 255);
 }
+
+@media (min-width: 400px) {
+  .header-text {
+    min-width: 500px !important;
+    height: auto;
+  }
+  .title {
+    font-size: 4rem;
+  }
+  .subtitle {
+    font-size: 1rem;
+  }
+  .arrow,
+  .arrow:before {
+    position: absolute;
+    left: 50%;
+    bottom: 6%;
+  }
+  .arrow {
+    width: 40px;
+    height: 40px;
+    bottom: 10%;
+  }
+}
+@media (max-width: 399px) {
+  .header-text {
+    min-width: 500px !important;
+    height: auto;
+  }
+  .title {
+    font-size: 4rem;
+  }
+  .subtitle {
+    font-size: 1rem;
+  }
+}
+/* @media (max-width: 700px) and (min-width: 590px) {
+  .header-text {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 590px) {
+  .header-text {
+    width: 100%;
+    height: auto;
+  }
+} */
+
 .arrow,
 .arrow:before {
   position: absolute;
