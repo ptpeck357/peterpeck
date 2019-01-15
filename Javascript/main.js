@@ -13,7 +13,8 @@ $(document).ready(function() {
   });
   // Crossfade
   $('.crossfade').crossfade({
-    backgroundPosition: 'center top'
+    backgroundPosition: 'center top',
+    threshold: 0.2
   });
 
   $('.crossfade-small').crossfade({
