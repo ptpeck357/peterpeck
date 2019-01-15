@@ -5,7 +5,8 @@
 }
 #aboutMe {
   background: #46474a;
-  height: 100vh;
+  height: auto;
+  padding: 5rem 0;
 }
 .hr-short {
   border-width: 3px;

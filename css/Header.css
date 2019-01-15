@@ -34,10 +34,19 @@ body, html {
   font-style: normal;
   color: rgb(255, 255, 255);
 }
+/* #learnMore {
+  position: absolute;
+  width: 100px;
+  top: 1%;
+  left: 50%;
+  z-index: 10;
+  color: whitesmoke;
+} */
 .arrow,
 .arrow:before {
   position: absolute;
   left: 50%;
+  bottom: 0;
 }
 .arrow {
   width: 40px;
@@ -73,7 +82,6 @@ body, html {
     transform: translate(-10px, -10px);
   }
 }
-
 @media (min-width: 400px) {
   .header-text {
     width: 100%;

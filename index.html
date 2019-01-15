@@ -13,13 +13,13 @@
 
   <!-- Custom CSS -->
 
-  <link rel="stylesheet" type="text/css" href="./css/style.min.css">
-  <!-- <link rel="stylesheet" type="text/css" href="./css/Header.css">
+  <!-- <link rel="stylesheet" type="text/css" href="./css/style.min.css"> -->
+  <link rel="stylesheet" type="text/css" href="./css/Header.css">
   <link rel="stylesheet" type="text/css" href="./css/Aboutme.css">
   <link rel="stylesheet" type="text/css" href="./css/projects.css">
   <link rel="stylesheet" type="text/css" href="./css/resume.css">
   <link rel="stylesheet" type="text/css" href="./css/contactme.css">
-  <link rel="stylesheet" type="text/css" href="./css/footer.css"> -->
+  <link rel="stylesheet" type="text/css" href="./css/footer.css">
 
   <!-- Fontawesome -->
   <link rel="stylesheet" href="./libraries/fontAwesome/css/all.css">
@@ -34,7 +34,11 @@
           <h1 class="title">Hello World!</h1>
           <p class="subtitle">I am a web developer, photographer, and a lifelong student</p>
         </div>
-        <div class="arrow" style="z-index:10;"></div>
+        <!-- <div style="position: absolute; left: 50%; bottom: 5%"> -->
+          <!-- <span id="learnMore">Learn More</span> -->
+          <a href="#aboutMe" class="arrow" style="z-index:10;"></a>
+        <!-- </div> -->
+
       </div>
     </header>
 
@@ -50,7 +54,7 @@
               <hr class="hr-short">
               <p style="text-indent: 2.5rem;">Detail-oriented Full-Stack Developer with broad experiences. As a recent high-school graduate, I have become a proficient developer after attending a Full-Stack Web Development Coding Bootcamp at Northwestern in Evanston, Illinois (2017-2018). I am currently attending University of Idaho to further my knowledge in computer science/software engineering.
               </p>
-              <p style="margin-bottom: -1px;">"Don’t worry if it doesn’t work right. If everything did, you’d be out of a job." <p class="line-height: 1px;"> - Software engineering mother</p></p>
+              <p style="margin-bottom: -1px;">"Don’t worry if it doesn’t work right. If everything did, you’d be out of a job." <p class="line-height: 1px;"> -Mother's Law of Software Engineering</p></p>
               <hr class="hr-short">
             </div>
           </div>
@@ -60,7 +64,7 @@
     <!-- Project section -->
     <div id="projects-section">
       <p id="portfolio-header" class="reveal">Personal Projects</p>
-      <hr>
+      <hr mb-0>
       <ul class="thumbs">
         <li>
           <a href="#project1" class="thumbnail reveal hvr-curl-top-left" style="background-image: url('./images/thumbnails/mern.jpg')">
