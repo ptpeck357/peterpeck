@@ -133,6 +133,9 @@ ul.thumbs li.content .media img {
     margin-right: 0;
     margin-bottom: 20px;
   }
+  #headerTitle{
+    text-align: center;
+  }
 }
 @media (max-width: 700px) and (min-width: 590px) {
   ul.thumbs .media {
@@ -149,8 +152,8 @@ ul.thumbs li.content .media img {
     padding: 0 1.5rem;
     height: 250px;
   }
-  #headerTitle {
-    text-align: center !important;
+  #headerTitle{
+    text-align: center;
   }
 }
 .portfolio-content {
@@ -169,12 +172,9 @@ ul.thumbs li.content .media img {
   .textProject {
     padding: 0 1.5rem;
   }
-  #headerTitle {
-    text-align: center !important;
+  #headerTitle{
+    text-align: center;
   }
 }
 @media (min-width: 400px) {
-  #headerTitle {
-    text-align: center !important;
-  }
 }
