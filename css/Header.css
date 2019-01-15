@@ -39,13 +39,7 @@ body, html {
     width: 100%;
     height: auto;
   }
-  .arrow,
-  .arrow:before {
-    position: absolute;
-    left: 50%;
-    bottom: 5%;
-  }
-}
+ }
 @media (max-width: 590px) {
   .header-text {
     width: 100%;
@@ -55,8 +49,8 @@ body, html {
     text-align: center;
   }
   .arrow {
-    position: absolute;
-    left: 50%;
+    position: absolute !important;
+    left: 50% !important;
     bottom: 10% !important;
   }
 }
@@ -69,8 +63,8 @@ body, html {
     text-align: center;
   }
   .arrow {
-    position: absolute;
-    left: 50%;
+    position: absolute !important;
+    left: 50% !important;
     bottom: 10% !important;
   }
 }
