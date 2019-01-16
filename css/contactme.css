@@ -1,7 +1,15 @@
+.connectWithMe {
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  color: whitesmoke;
+  text-align: center;
+  font-size: 2.5rem;
+  background-color: #64a19d !important;
+  padding: 1rem 0;
+}
 .contact-section {
   border-color: #64a19d;
   border-bottom: 0.25rem solid #64a19d;
-  padding-top: 5rem;
+  padding-top: 1rem;
   background: #46474a;
 }
 .contact-section hr {
@@ -22,7 +30,7 @@
 }
 .social > a {
   color: #64a19d;
-  margin: 2rem 0;
+  margin: 1rem 0;
   padding: 0 1rem;
 }
 .fab {
