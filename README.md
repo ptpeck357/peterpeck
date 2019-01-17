@@ -9,6 +9,7 @@ This is my source code behind my website. It is still a work in progress.
 * scrollReveal
 * jQueryPortfolio
 * CrossFade
+* CSSHover
 * FontAwesome
 
 ## Author
