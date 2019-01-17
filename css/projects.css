@@ -65,6 +65,6 @@ a.button {
   transition-property: width, height;
 }
 .hvr-curl-top-left:hover:before, .hvr-curl-top-left:focus:before, .hvr-curl-top-left:active:before {
-  width: 50px;
-  height: 50px;
+  width: 500px;
+  height: 500px;
 }
